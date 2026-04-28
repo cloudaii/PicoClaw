@@ -11,7 +11,7 @@ proot-distro install ubuntu
 proot-distro login ubuntu
 ```
 
-***Prepare the Ubuntu Environment**
+**Prepare the Ubuntu Environment**
 
 ```
 apt update && apt upgrade -y
@@ -62,5 +62,12 @@ EOF
 ```
 **Run PicoClaw**
 ```
+picoclaw gateway
+```
+```
+ollama serve
+```
+```
+proot-distro login ubuntu
 picoclaw gateway
 ```
