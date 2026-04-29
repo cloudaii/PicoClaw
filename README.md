@@ -2,6 +2,25 @@
 
 PicoClaw is an ultra-lightweight, open-source AI agent framework designed to run on resource-constrained hardware (like $10 RISC-V boards or old Android phones). It is a Go-native, "bare-metal" alternative to heavier frameworks like OpenClaw.
 
+**run this**
+```
+pkg install ollama
+```
+```
+ollama serve
+```
+**run this on second session**
+```
+ollama run
+```
+```
+ollama run kimi-k2.5:cloud
+```
+
+
+
+
+
 **update packages and intall ubuntu**
 
 ```
